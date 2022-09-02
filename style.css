@@ -11,6 +11,7 @@ html {
 .container {
   width: 70%;
   margin: 40px auto;
+  text-align: center;
 }
 /* header */
 .h1 {
@@ -28,11 +29,7 @@ html {
 
 .paragrafo {
   text-align: center;
-  margin-top: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
-  /* margin: auto;
-  padding: auto; */
+  margin: auto;
 }
 /* /header */
 
@@ -42,9 +39,10 @@ html {
   background-color: black;
   color: white;
   margin-bottom: 8px;
-  box-shadow: 0 0 50px rgba(204, 204, 204, 0.603);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.603);
   display: inline-block;
   margin-right: 20px;
+  width: calc(100% / 3 - (80px / 3));
 }
 
 .male-female-last {
@@ -52,8 +50,9 @@ html {
   background-color: black;
   color: white;
   margin-bottom: 8px;
-  box-shadow: 0 0 50px rgba(204, 204, 204, 0.603);
   display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.603);
+  margin: none;
 }
 
 .img-male-female {
