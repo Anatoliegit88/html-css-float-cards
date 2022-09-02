@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+}
+/* header */
+.h1 {
+  color: rgb(221, 70, 95);
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.div-parag {
+  padding-left: 170px;
+  padding-right: 170px;
+  text-align: center;
+}
+
+.paragrafo {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* margin: auto;
+  padding: auto; */
+}
+/* /header */
+
+/* div scheda */
+.male-female {
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
+  box-shadow: 0 0 50px rgba(204, 204, 204, 0.603);
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.male-female-last {
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
+  box-shadow: 0 0 50px rgba(204, 204, 204, 0.603);
+  display: inline-block;
+}
+
+.img-male-female {
+  float: left;
+  height: 61px;
+  margin-right: 5px;
+}
+
+.name-prof {
+  padding: auto;
+}
+
+.email {
+  color: rgb(71, 216, 252);
+}
+/* /div scheda */
